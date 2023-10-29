@@ -1,0 +1,64 @@
+.divider {
+    border-bottom: 1px solid #0001083f;
+    margin: auto;
+    width: 95%;
+  }
+
+.descripcion {
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #c5d5ea;
+    padding: 1rem;
+}
+
+a {
+    color: white;
+
+}
+
+.problematica {
+        background-color: #b3c5d7;
+        font-size: 16px;
+        width: 95%;
+        margin: auto;
+}
+
+.historia {
+ background-color: #7392b7;
+ width: 95%;
+ margin: auto;
+}
+
+.objetivo {
+    background-color: #759eb8;
+    color: black;
+    width: 95%;
+    margin: auto;
+}
+
+.body {
+    background-color: #c5d5ea;
+}
+
+header {
+    background-color: #c5d5ea;
+}
+
+.cita {
+    font-family:'Helvetica Neue';
+}
+
+form {     
+    background-color: #7392b7;     
+    padding: 20px;     
+    border-radius: 10px; 
+    margin-right: 55%;    
+    margin-top: 5%;
+    margin-left: 3%;
+}   
+

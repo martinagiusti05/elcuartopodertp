@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>opinion</title>
+</head>
+<body>
+   <h1>Tus datos se enviaron exitosamente!!</h1>       
+   <p>Muchas gracias <span id="nombreMostrado"></span> por darnos tu opinión!!</p>       
+   <script>         
+   // Obtener los parámetros de la URL (si se utiliza el método GET)
+            var urlParams = new URLSearchParams(window.location.search);                  
+            // Obtener el valor del parámetro "nombre"         
+            var nombre = urlParams.get('nombre');                         
+            // Mostrar los valores en la página         
+            document.getElementById('nombreMostrado').textContent = nombre;     
+    </script>
+    <a href="index.html"><button><i class="bi bi-rewind-btn"></i></button></a>
+</body>
+</html>
